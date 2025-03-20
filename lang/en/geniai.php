@@ -28,6 +28,6 @@ $string['geniai:addinstance'] = 'Add instance';
 $string['geniai:view'] = 'Allow the user to view the GeniAI Chat';
 $string['modulename'] = 'GeniAI Chat';
 $string['modulenameplural'] = 'GeniAI Chat';
+$string['pluginadministration'] = 'Adminitrate Chats';
 $string['pluginname'] = 'GeniAI Chat';
 $string['privacy:metadata'] = 'None store data';
-$string['pluginadministration'] = 'Administar Chats';

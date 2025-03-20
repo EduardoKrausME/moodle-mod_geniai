@@ -33,6 +33,11 @@ namespace mod_geniai\privacy;
  */
 class provider implements \core_privacy\local\metadata\null_provider {
 
+    /**
+     * Function get_reason
+     *
+     * @return string
+     */
     public static function get_reason(): string {
         return 'privacy:metadata';
     }

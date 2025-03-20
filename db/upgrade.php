@@ -39,7 +39,5 @@ function xmldb_geniai_upgrade($oldversion) {
 
     $dbman = $DB->get_manager();
 
-
-
     return true;
 }
