@@ -77,9 +77,9 @@ class restore_geniai_activity_task extends restore_activity_task {
         $rules = [];
 
         $rules[] = new restore_decode_rule(
-            "CERTIFICATEBEAUTIFULVIEWBYID", '/mod/geniai/view.php?id=$1', "course_module");
+            "GENIAIBEAUTIFULVIEWBYID", '/mod/geniai/view.php?id=$1', "course_module");
         $rules[] = new restore_decode_rule(
-            "CERTIFICATEBEAUTIFULINDEX", '/mod/geniai/index.php?id=$1', "course");
+            "GENIAIBEAUTIFULINDEX", '/mod/geniai/index.php?id=$1', "course");
 
         return $rules;
     }

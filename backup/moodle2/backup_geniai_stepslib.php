@@ -40,7 +40,7 @@ class backup_geniai_activity_structure_step extends backup_activity_structure_st
      * @throws dml_exception
      */
     protected function define_structure() {
-        // Course certificate.
+        // Course geniai.
         $fields = ["name", "timecreated", "timemodified", "intro", "introformat", "template", "expires"];
         $geniai = new backup_nested_element("geniai", ["id"], $fields);
 

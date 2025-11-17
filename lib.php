@@ -23,7 +23,7 @@
  */
 
 /**
- * Checks if certificate activity supports a specific feature.
+ * Checks if geniai activity supports a specific feature.
  *
  * @uses FEATURE_GROUPS
  * @uses FEATURE_GROUPINGS

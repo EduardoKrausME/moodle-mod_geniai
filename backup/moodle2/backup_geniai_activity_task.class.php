@@ -65,11 +65,11 @@ class backup_geniai_activity_task extends backup_activity_task {
 
         // Link to the list of choices.
         $search = "/(" . $base . "\/mod\/geniai\/index.php\?id\=)([0-9]+)/";
-        $content = preg_replace($search, '$@CERTIFICATEBEAUTIFULINDEX*$2@$', $content);
+        $content = preg_replace($search, '$@GENIAIBEAUTIFULINDEX*$2@$', $content);
 
         // Link to choice view by moduleid.
         $search = "/(" . $base . "\/mod\/geniai\/view.php\?id\=)([0-9]+)/";
-        $content = preg_replace($search, '$@CERTIFICATEBEAUTIFULVIEWBYID*$2@$', $content);
+        $content = preg_replace($search, '$@GENIAIBEAUTIFULVIEWBYID*$2@$', $content);
 
         return $content;
     }
