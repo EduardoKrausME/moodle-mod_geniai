@@ -132,4 +132,3 @@ function geniai_delete_instance(int $id): bool {
 
     return true;
 }
-
