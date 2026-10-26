@@ -29,12 +29,6 @@ The Beautiful certificate plugin for Moodle improves the certificate creation ex
 - **Export pfor PDF:**
   - The plugin allows the export of certificates in PDF format.
 
-## Installation
-
-1. Download Beautiful certificate plugin.
-2. Install the plugin on your Moodle instance following the standard installation process..
-3. Add to the courses where you want to deliver a certificate.
-
 ## Contributing
 
 Please feel free to contribute to the development of the Beautiful certificate plugin, sending problems or pull requests. [repositório do GitHub](https://github.com/EduardoKrausME/moodle-mod_geniai).
